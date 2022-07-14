@@ -220,6 +220,9 @@ a {
 
 /* --------------  ПОРТФОЛИО    ------------ */
 /* -----filter------ */
+element.style {
+  font-style: normal;
+}
 .filter {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
