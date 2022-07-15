@@ -40,8 +40,6 @@ a {
 
 /* site-nav */
 .site-nav .link {
-  font-family: inherit;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,7 +64,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .auth-nav .link:focus,
@@ -84,7 +82,7 @@ a {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+
   color: var(--white);
 }
 .button-hero {
@@ -92,10 +90,9 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+
   letter-spacing: 0.06em;
+
   color: var(--white);
   background-color: var(--accent-color);
 }
@@ -108,48 +105,46 @@ a {
 .hidden {
   display: none;
 }
-.list {
-  display: flex;
-}
 
 .section-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   color: var(--primary-text-color);
 }
+
 .section-item {
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--secondary-text-color);
 }
-/*-----------Чем мы занимаемся------------ */
-.section-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.71;
+
+/* --------Чим ми займаємося---------- */
+
+.work-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   color: var(--primary-text-color);
-}
-.section-item {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 /* -------Наша команда -------*/
-.team {
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+
   color: var(--primary-text-color);
-  background-color: #f5f4fa;
 }
 
 .user-item {
@@ -160,26 +155,12 @@ a {
 
   color: var(--secondary-text-color);
 }
-.team-title {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-text-color);
-}
-.card-team {
-  font-family: "Roboto";
-  font-style: normal;
+.text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--white);
 }
 
 /* -----footer ------*/
@@ -191,6 +172,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   color: #2196f3;
 }
@@ -202,7 +184,6 @@ a {
   color: var(--white);
 }
 .address-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -224,7 +205,7 @@ element.style {
   font-style: normal;
 }
 .filter {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -232,6 +213,16 @@ element.style {
   letter-spacing: 0.03em;
 
   color: #ffffff;
+}
+
+.filter-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
@@ -242,23 +233,19 @@ element.style {
 
 /* --------projects------- */
 .project-item {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .project-type {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-text-color);
 }
