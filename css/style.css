@@ -162,7 +162,12 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-
+.user-text {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
 /* -----footer ------*/
 .footer {
   background-color: #2f303a;
@@ -185,14 +190,14 @@ a {
 }
 .address-link {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white);
 }
 .footer-nav {
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 
@@ -242,8 +247,6 @@ element.style {
 }
 
 .project-type {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 
